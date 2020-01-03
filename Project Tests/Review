@@ -1,0 +1,14 @@
+Test Review
+
+lodsb: si => al, add si, 2
+stosw: ax => di, add di, 2
+
+blob:	dw 	0xF000
+glob:	db	0xF000
+
+mov		ax, [blob]
+mov		bx, [glob]
+and		ax, bx
+
+!!!Watch out for the 
+ax = F000		;
