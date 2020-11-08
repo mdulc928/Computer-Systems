@@ -1,7 +1,6 @@
 ;File: grok.asm
 ;Author: Melchisedek Dulcio (mdulc928)
 ;Desc:    Contains implementation of the grok calculator
-;Num days remaining: 2 days, Must start: Urgent!!!!!!!!!
 
 ;stack implementation:
 
