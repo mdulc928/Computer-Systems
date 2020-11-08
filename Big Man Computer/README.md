@@ -1,14 +1,14 @@
-# Program 1
+# Big Man Computer
 
 [Check Submission](https://protect.bju.edu/cps/checker/cps230/prog1)
 
 ## Overview
 
-You will write a program in C to simulate the operations of our hypthetical "Big Boy Computer."
+Write a program in C to simulate the operations of our hypthetical "Big Boy Computer."
 
 The advanced version will feature an interactive "debugger" that allows direct user control of BBC.
 
-The extra credit version will require you to explore features of C and its standard library we haven't covered yet.
+The enhanced version requires exploring features of C and its standard library not covered yet.
 
 ## Background
 
@@ -38,9 +38,7 @@ BBC has very simple input/output (I/O) facilities; it can:
 
 # Requirements
 
-## 85% Version
-
-Implement a C program that simulates the components of BBC and its fetch/decode/execute cycle.
+Implements a C program that simulates the components of BBC and its fetch/decode/execute cycle.
 
 * Simulate `RAM` using a `char` array (4096 elements)
 * Simulate `Acc` using a `short` variable
@@ -56,15 +54,13 @@ You must load/run the following BBC program (listed below as 16-bit numbers in h
 
     1c801ec00690000020b0167002e01c8000401c90006000004142430018000080ff00
 
-> Note: Your solution should load this program *exactly* as shown, the conversion to / from Big Endian for processing should happen in the load / store methods.
+> Note: The solution should load this program *exactly* as shown, the conversion to / from Big Endian for processing should happen in the load / store methods.
 
 Try to work out on paper what the above program should do before you try running it in your BBC simulator.
 
 Note that `RAM` should be *all zeros* before loading the program into it!
 
-## 100% Version
-
-Enhance your BBC simulator to make it an interactive BBC debugger.  Continue to load the program as before,
+Enhanced BBC simulator to make it an interactive BBC debugger.  Continue to load the program as before,
 but do not run it right away.  Instead:
 
 * Prompt the user for a single character of input (`%c` with `scanf`)
@@ -90,10 +86,10 @@ but do not run it right away.  Instead:
 
 ## Extra Credit Version
 
-Enhance your BBC debugger/simulator to load its program from a
+Enhance the BBC debugger/simulator to load its program from a
 user-specified binary file using the C standard library's `fopen` and `fread` functions.  Take the filename from the command-line arguments passed to the program. If no arguments are specified, print out a brief and helpful "usage guide" message and terminate without doing anything else.
 
-To get you started on using command line arguments in C, see the following snippet (notice the change made to the "normal" `main` function):
+To get started on using command line arguments in C, see the following snippet (notice the change made to the "normal" `main` function):
 
 ```
 int main(int argc, char *argv[]) {
