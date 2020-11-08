@@ -1,0 +1,25 @@
+Tasks:
+	Creating more tasks for us to use - Stone Champion
+	Electives 
+	 * Timer Preemption - Melchisedek Dulcio - Done
+	 * PN Calculator Demo - Melchisedek Dulcio
+	 * Graphics Demo - Stone Champion
+	 * Music Demo - Stone Champion
+ 	 * Real Mode C - Stone Champion/Melchisedek Dulcio
+		We just need to write something in real mode C.
+		Maybe we can do our output of characters in C.
+	 * Protected Mode - Stone Champion/Melchisedek Dulcio
+	     so we have an issue:	
+		If we do that one we can't do the timer
+		Or we can write the timer and not use it
+		So we would still get the points for the timer, I think.
+	Fix Bugs - Start on Thursday.
+	Polishing: 
+	 * Comments - Whatever we wrote
+	 * code golf - Whatever we wrote
+	Other thoughts
+	* If we do the PN Calculator, we would have to use the timer
+	  since we are asking for input from the user and we don't want our
+	  program to freeze. 
+
+What do you think?
